@@ -4,7 +4,7 @@
 
 # [Link of live project](https://sdekrishna.netlify.app/)
 
-![KR]()
+![KR](./landingpage.jpeg)
 
 # What I learnt here from this project
 
