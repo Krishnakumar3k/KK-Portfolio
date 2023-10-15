@@ -333,8 +333,15 @@ header .navbar ul li a:hover {
 
 /* hero media queries starts*/
 @media (max-width: 450px) {
+  .home .socials {
+    margin-left: 27%;
+  }
+  .home .content h2{
+    margin: 25px;
+  }
   .home .btn {
     margin: 4rem 0;
+    margin-left: 25%;
   }
   .socials {
     margin-top: 12rem;
