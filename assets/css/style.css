@@ -70,7 +70,7 @@ header {
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #fff;
+  background-color: #fcfcfc;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 section {
@@ -181,11 +181,16 @@ header .navbar ul li a:hover {
 /* hero section starts*/
 .home {
   position: relative;
+  background-color: rgba(217, 217, 232, 0.951);
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   min-height: 100vh;
   align-items: center;
+}
+
+.div-1{
+  margin-left: 25%;
 }
 .home #particles-js {
   position: absolute;
@@ -206,6 +211,7 @@ header .navbar ul li a:hover {
   flex: 1 1 40rem;
   padding-top: 1rem;
   z-index: 1;
+  /* margin-left: 25%; */
 }
 .home .image {
   flex: 1 1 40rem;
@@ -288,6 +294,7 @@ header .navbar ul li a:hover {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  margin-left: 26%;
 }
 .socials .social-icons li {
   display: inline-block;
@@ -333,15 +340,15 @@ header .navbar ul li a:hover {
 
 /* hero media queries starts*/
 @media (max-width: 450px) {
-  .home .socials {
-    margin-left: 27%;
-  }
+/*   .home .socials {
+    margin-left: ;
+  } */
   .home .content h2{
-    margin: 25px;
+    margin: 15px;
   }
   .home .btn {
     margin: 4rem 0;
-    margin-left: 25%;
+    margin-left: 2%;
   }
   .socials {
     margin-top: 12rem;
@@ -361,7 +368,7 @@ header .navbar ul li a:hover {
 
 /* about section starts */
 .about {
-  background: rgb(255, 255, 255);
+  background: rgb(254, 253, 253);
 }
 .about .row {
   display: flex;
@@ -475,7 +482,7 @@ header .navbar ul li a:hover {
 /* skills section starts */
 .skills {
   min-height: 90vh;
-  background: linear-gradient(to bottom, #57059e, #4a00e0);
+  background: linear-gradient(to bottom, #9f92f3, #2d20a7);
 }
 .skills h2 {
   color: #fff;
@@ -656,7 +663,7 @@ header .navbar ul li a:hover {
 /* work section starts */
 .work {
   /* background: #010124; */
-  background: linear-gradient(to bottom, #000031, #00002c);
+  background: linear-gradient(to bottom, #292964, #060611);
 }
 .work h2 {
   color: #fff;
